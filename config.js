@@ -42,7 +42,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Tomb',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+            description: '',
             image: './images/bamboo-slip.jpg',
             location: {
                 center: [118.925653, 34.633963],
@@ -103,7 +103,7 @@ var config = {
             title: 'The Pengcheng Trip',
             description: 'An overall description',
             location: {
-                center: [118.200243, 34.552325],
+                center: [118.511010, 34.552325],
                 zoom: 8.51,
                 pitch: 0,
                 bearing: 0.00
@@ -131,9 +131,9 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'The Pengcheng Trip - overland routes',
-            description: '...',
+            description: 'During Shi Tao\'s journey from Wuyuan to Pengcheng and back home, he documented taking four subroutes in his diary. These subroutes included Wuyuan to Pengcheng, Pengcheng back to Wuyuan, Wuyuan to his dormitory, and the final leg from his dormitory to his home. To determine the optimal overland route for the journey, Least Cost Path Analysis was performed in ArcGIS Pro, resulting in red lines on the map. The combined length of the route was approximately 300 kilometers, with an average daily progress of 75 kilometers.',
             location: {
-                center: [118.200243, 34.552325],
+                center: [118.511010, 34.552325],
                 zoom: 8.51,
                 pitch: 0,
                 bearing: 0.00
@@ -163,9 +163,9 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'The Pengcheng Trip- waterways',
-            description: '... ABM',
+            description: 'In the waterway analysis conducted using NetLogo, represented by blue lines, the desirability layer was generated in ArcMap and subsequently imported into NetLogo, a programmable modeling environment specially designed for agent-based modeling. The desirability layer assigns values indicating Shi Rao\'s willingness to traverse each pixel or patch in NetLogo. Higher values indicate a greater likelihood of him choosing to pass through those areas. Two factors were considered in this analysis: distance to the river and slope, with weights of 1/3 and 2/3 respectively. Essentially, this implies that pixels closer to the river or with gentler slopes have higher desirability values. Shi Rao orients himself towards the destination direction and selects the pixel with the highest desirability value along his path until he reaches his destination, at which point he stops. In the results, the overall length of the waterway route is estimated to be 370 kilometers, with an average daily progress of nearly 95 kilometers.',
             location: {
-                center: [118.200243, 34.552325],
+                center: [118.511010, 34.552325],
                 zoom: 8.51,
                 pitch: 0,
                 bearing: 0.00
@@ -189,9 +189,9 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'The Pengcheng Trip - comparison of ABM and LCPA',
-            description: '........',
+            description: 'This revealed that there were significant detours in the waterway route to Shi Rao\'s destination. Considering the outcomes of Least Cost Path Analysis (LCPA) and Agent-Based Modeling (ABM), it is evident that using a boat as a mode of transport is improbable for Shi Rao. Furthermore, the cities he passed through were situated along different river branches, which would necessitate portage between these branches if he were to opt for waterway travel. Hence, it can be concluded that following the rivers is highly unlikely. Moreover, considering the extensive distances covered by Shi Rao in a single day during winter in the second scenario, it becomes apparent that traveling on horseback is the only feasible option for him.',
             location: {
-                center: [118.200243, 34.552325],
+                center: [118.511010, 34.552325],
                 zoom: 8.51,
                 pitch: 0,
                 bearing: 0.00
