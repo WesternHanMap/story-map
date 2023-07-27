@@ -198,6 +198,119 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            onChapterEnter: [ 
+                {
+                layer: 'pengcheng-travel-cities',
+                opacity: 1
+                },
+                {
+                layer: 'dem',
+                opacity: 1
+                    },
+                {
+                layer: 'overland-pengcheng',
+                opacity: 1
+                    },
+                {
+                layer: 'waterways-pengcheng',
+                opacity: 1
+                }
+            ],
+            onChapterExit: [ {
+                layer: 'overland-pengcheng',
+                opacity: 1
+                },
+                {
+                    layer: 'waterways-pengcheng',
+                    opacity: 1
+                    }]
+        },
+        {
+            id: '8',
+            alignment: 'right',
+            hidden: false,
+            title: 'The Pengcheng Trip',
+            description: '',
+            location: {
+                center: [117.899120, 34.467277],
+                zoom: 10.3,
+                pitch: 0,
+                bearing: 1.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            onChapterEnter: [ {
+                layer: 'pengcheng-travel-cities',
+                opacity: 1
+                },
+                {
+                    layer: 'overland-pengcheng',
+                    opacity: 1
+                    },
+                    {
+                        layer: 'waterways-pengcheng',
+                        opacity: 1
+                        }
+            ],
+            onChapterExit: [ {
+                layer: 'overland-pengcheng',
+                opacity: 1
+                },
+                {
+                    layer: 'waterways-pengcheng',
+                    opacity: 1
+                    }]
+        },{
+            id: '9',
+            alignment: 'right',
+            hidden: false,
+            title: 'The Pengcheng Trip',
+            description: '',
+            location: {
+                center: [117.257229, 34.289287],
+                zoom: 10.36,
+                pitch: 0,
+                speed:0.6,
+                bearing: 1.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            onChapterEnter: [ {
+                layer: 'pengcheng-travel-cities',
+                opacity: 1
+                },
+                {
+                    layer: 'overland-pengcheng',
+                    opacity: 1
+                    },
+                    {
+                        layer: 'waterways-pengcheng',
+                        opacity: 1
+                        }
+            ],
+            onChapterExit: [ {
+                layer: 'overland-pengcheng',
+                opacity: 1
+                },
+                {
+                    layer: 'waterways-pengcheng',
+                    opacity: 1
+                    }]
+        },{
+            id: '10',
+            alignment: 'right',
+            hidden: false,
+            title: 'The Pengcheng Trip',
+            description: '',
+            location: {
+                center: [118.131861, 34.566486],
+                zoom: 9.41,
+                pitch: 0,
+                speed:0.6,
+                bearing: 1.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
             onChapterEnter: [ {
                 layer: 'pengcheng-travel-cities',
                 opacity: 1
@@ -220,7 +333,57 @@ var config = {
                     opacity: 1
                     }]
         },
+        {
+            id: '11',
+            alignment: 'right',
+            hidden: false,
+            title: 'The Pengcheng Trip',
+            description: '',
+            location: {
+                center: [118.722692, 34.652978],
+                zoom: 10.21,
+                pitch: 0,
+                speed:0.6,
+                bearing: 1.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            onChapterEnter: [ {
+                layer: 'pengcheng-travel-cities',
+                opacity: 1
+                },
                 {
+                    layer: 'overland-pengcheng',
+                    opacity: 1
+                    },
+                    {
+                        layer: 'waterways-pengcheng',
+                        opacity: 1
+                        }
+            ],
+            onChapterExit: [ {
+                layer: 'overland-pengcheng',
+                opacity: 1
+                },
+                {
+                    layer: 'waterways-pengcheng',
+                    opacity: 1
+                    },
+                    {
+                        layer: 'trip2-abm',
+                        opacity: 1
+                        },
+                        {
+                            layer: 'trip-lpca',
+                            opacity: 1
+                            },
+                            {
+                                layer: 'citiesshiraovisited-label',
+                                opacity: 1
+                                }
+                ]
+        },
+        {
             id: '12',
             alignment: 'right',
             hidden: false,
@@ -256,7 +419,6 @@ var config = {
                     layer: 'waterways-pengcheng',
                     opacity: 1
                     }]
-        }
-
+        },
     ]
 };
