@@ -219,6 +219,43 @@ var config = {
                     layer: 'waterways-pengcheng',
                     opacity: 1
                     }]
+        },
+                {
+            id: '12',
+            alignment: 'right',
+            hidden: false,
+            title: 'The Dongwu Trip',
+            description: '',
+            location: {
+                center: [119.276698, 35.295047],
+                zoom: 7.9,
+                pitch: 0,
+                speed:0.6,
+                bearing: 1.00
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            onChapterEnter: [ {
+                layer: 'trip2-abm',
+                opacity: 1
+                },
+                {
+                    layer: 'trip-lpca',
+                    opacity: 1
+                    },
+                    {
+                        layer: 'citiesshiraovisited-label',
+                        opacity: 1
+                        }
+            ],
+            onChapterExit: [ {
+                layer: 'overland-pengcheng',
+                opacity: 1
+                },
+                {
+                    layer: 'waterways-pengcheng',
+                    opacity: 1
+                    }]
         }
 
     ]
